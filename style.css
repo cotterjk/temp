@@ -42,6 +42,13 @@ p {
     margin-top: 100px;
 }
 
+@media only screen and (max-width: 600px) {
+  .text-column {
+      width: 90%;
+      margin: auto;
+  }
+}
+
 .logo-container {
     display: block;
     width: 70px;
