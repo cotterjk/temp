@@ -1,0 +1,73 @@
+html {
+    font-family: 'Roboto Slab', serif;
+    background: linear-gradient(#F2E9C2,#BFE6EF);
+}
+
+.img-container {
+    width: 100%;
+    margin: auto;
+    overflow: scroll;
+    cursor: url('assets/chart-arrow.png'),auto;
+    margin-top: 45px;
+}
+
+.img-container::-webkit-scrollbar {
+  display: none;
+}
+
+img.main-chart {
+    object-fit: contain;
+    height: 300px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight:400;
+    color: rgba(0, 0, 0, 0.84);
+    padding-top: 0.7em;
+}
+
+p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.84);
+    line-height: 1.58;
+    font-weight:400;
+    margin-top: 21px;
+}
+
+.text-column {
+    max-width: 600px;
+    width: 66%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.logo-container {
+    display: block;
+    width: 70px;
+    margin: 64px auto;
+}
+
+.down-arrow-container {
+    position: absolute;
+    left:50%;
+    bottom:20px;
+    transform: translate(-20px, 0);
+    height: 40px;
+    width: 40px;
+}
+
+svg.logo {
+    stroke: #252525;
+}
+
+svg.logo:hover {
+    stroke: steelblue;
+}
+
+.svg-sketch-container {
+    max-width: 700px;
+    width: 75%;
+    margin: auto;
+    margin-top: 60px;
+}
